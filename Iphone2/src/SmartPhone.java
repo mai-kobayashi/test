@@ -1,21 +1,20 @@
-package iphone;
 
-public class SmartPhone extends Mp3Player {
+public class SmartPhone implements Mp3Player, NewFunstion {
 
 	public void play(){
-		System.out.println("再生（ハイレゾ機能）");
+		System.out.println("再生");
 	}
 
 	public void stop(){
-		System.out.println("停止（ハイレゾ機能）");
+		System.out.println("停止");
 	}
 
 	public void next(){
-		System.out.println("次へ（ハイレゾ機能）");
+		System.out.println("次へ");
 	}
 
 	public void back(){
-		System.out.println("戻る（ハイレゾ機能）");
+		System.out.println("戻る");
 	}
 
 	public void call(){
