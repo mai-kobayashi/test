@@ -1,0 +1,12 @@
+127.0.0.1 - - [08/Feb/2019:19:31:54 +0900] "GET / HTTP/1.1" 404 1019
+0:0:0:0:0:0:0:1 - - [08/Feb/2019:19:31:57 +0900] "GET /HelloServlet/ HTTP/1.1" 200 216
+0:0:0:0:0:0:0:1 - - [08/Feb/2019:19:32:04 +0900] "GET /HelloServlet/HelloServlet HTTP/1.1" 200 59
+127.0.0.1 - - [08/Feb/2019:19:54:54 +0900] "GET / HTTP/1.1" 404 1019
+0:0:0:0:0:0:0:1 - - [08/Feb/2019:19:54:56 +0900] "GET /HelloServlet/ HTTP/1.1" 200 308
+0:0:0:0:0:0:0:1 - - [08/Feb/2019:19:55:13 +0900] "GET /HelloServlet/HelloServlet HTTP/1.1" 200 59
+0:0:0:0:0:0:0:1 - - [08/Feb/2019:19:55:15 +0900] "GET /HelloServlet/welcome.jsp HTTP/1.1" 200 348
+0:0:0:0:0:0:0:1 - - [08/Feb/2019:19:55:27 +0900] "POST /HelloServlet/WelcomeServlet HTTP/1.1" 200 81
+127.0.0.1 - - [08/Feb/2019:21:29:32 +0900] "GET / HTTP/1.1" 404 1019
+0:0:0:0:0:0:0:1 - - [08/Feb/2019:21:29:33 +0900] "GET /HelloServlet/ HTTP/1.1" 200 401
+0:0:0:0:0:0:0:1 - - [08/Feb/2019:21:29:39 +0900] "GET /HelloServlet/inquiry.jsp HTTP/1.1" 200 610
+0:0:0:0:0:0:0:1 - - [08/Feb/2019:21:29:56 +0900] "POST /HelloServlet/InquiryServlet HTTP/1.1" 200 117
