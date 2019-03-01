@@ -5,7 +5,7 @@
 		<item value="500" key="Dialog_Size_Height"/>
 	</section>
 	<section name="Connectivity_Property_Dialog_Root">
-		<item value="1616" key="Dialog_Size_Width"/>
-		<item value="876" key="Dialog_Size_Height"/>
+		<item value="1600" key="Dialog_Size_Width"/>
+		<item value="860" key="Dialog_Size_Height"/>
 	</section>
 </section>
