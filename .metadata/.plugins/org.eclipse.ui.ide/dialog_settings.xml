@@ -12,6 +12,7 @@
 		<item value="false" key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID"/>
 		<item value="false" key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="C:\Users\testuser.internous-PC\Desktop\workspace\workspace-kobayashi\test\Webproj4"/>
 			<item value="C:\Users\USER\Desktop\workspace\workspace-kobayashi\test\login"/>
 			<item value="C:\Users\testuser.internous-PC\Desktop\workspace\workspace-kobayashi\test\TestDB2"/>
 			<item value="C:\Users\testuser.internous-PC\Desktop\workspace\workspace-kobayashi\test\TestDB"/>
