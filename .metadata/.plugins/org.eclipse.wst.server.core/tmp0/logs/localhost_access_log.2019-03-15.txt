@@ -43,3 +43,8 @@
 0:0:0:0:0:0:0:1 - - [15/Mar/2019:14:34:14 +0900] "POST /WebProj5/WelcomeAction.action;jsessionid=47FD60A1CCD2DE3BF22DD6645D5262AF HTTP/1.1" 200 865
 0:0:0:0:0:0:0:1 - - [15/Mar/2019:14:34:21 +0900] "POST /WebProj5/LoginAction.action HTTP/1.1" 200 371
 0:0:0:0:0:0:0:1 - - [15/Mar/2019:14:34:21 +0900] "GET /WebProj5/css/style.css HTTP/1.1" 404 1063
+127.0.0.1 - - [15/Mar/2019:15:29:51 +0900] "GET / HTTP/1.1" 404 1019
+0:0:0:0:0:0:0:1 - - [15/Mar/2019:15:29:52 +0900] "GET /WebProj5/ HTTP/1.1" 200 804
+0:0:0:0:0:0:0:1 - - [15/Mar/2019:15:29:55 +0900] "POST /WebProj5/WelcomeAction.action;jsessionid=DCA68D5D4DAD27E744788EE008BC3C44 HTTP/1.1" 200 865
+0:0:0:0:0:0:0:1 - - [15/Mar/2019:15:30:01 +0900] "POST /WebProj5/LoginAction.action HTTP/1.1" 200 371
+0:0:0:0:0:0:0:1 - - [15/Mar/2019:15:30:01 +0900] "GET /WebProj5/css/style.css HTTP/1.1" 404 1063
