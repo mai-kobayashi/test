@@ -31,7 +31,7 @@
 			<result name="error">userCreate.jsp</result>
 		</action>
 
-		<!-- <action name="UserCreateCompleteAction" class="com.internousdev.ecsite.action.UserCreateCompleteAction" method="execute">
+		<action name="UserCreateCompleteAction" class="com.internousdev.ecsite.action.UserCreateCompleteAction" method="execute">
 			<result name="success">userCreateComplete.jsp</result>
 		</action>
 
@@ -45,7 +45,7 @@
 			<result name="back">buyItem.jsp</result>
 		</action>
 
-		<action name="BuyItemCompleteAction" class="com.internousdev.ecsite.action.BuyItemCompleteAction" method="execute">
+		<!-- <action name="BuyItemCompleteAction" class="com.internousdev.ecsite.action.BuyItemCompleteAction" method="execute">
 			<result name="success">home.jsp</result>
 		</action>
 
@@ -56,7 +56,7 @@
 
 		<action name="LogoutAction" class="com.internousdev.ecsite.action.LogoutAction" method="execute">
 			<result name="success">home.jsp</result>
-		</action> -->
-
+		</action>
+ -->
 	</package>
 </struts>
