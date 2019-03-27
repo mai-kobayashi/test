@@ -78,7 +78,7 @@
 			</s:form>
 			<s:if test="#session.id != null">
 				<p>ログアウトする場合は
-					<a href='<s:url action="LoginAction"/>'>こちら</a></p>
+					<a href='<s:url action="LogoutAction"/>'>こちら</a></p>
 			</s:if>
 		</div>
 	</div>
