@@ -13,7 +13,7 @@ import com.opensymphony.xwork2.ActionSupport;
 public class MyPageAction extends ActionSupport implements SessionAware{
 	public Map<String,Object> session;
 	private MyPageDAO myPageDAO = new MyPageDAO();
-	private ArrayList<MyPageDTO> myPageDTOList = new ArrayList<MyPageDTO>();
+	private ArrayList<MyPageDTO> myPageList = new ArrayList<MyPageDTO>();
 	private String deleteFlg;
 	private String message;
 

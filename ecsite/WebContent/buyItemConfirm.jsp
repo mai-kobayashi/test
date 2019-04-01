@@ -10,6 +10,7 @@
 	<meta http-equiv="imagetoolbar" content="no"/>
 	<meta name="description" content=""/>
 	<meta name="keywords" content=""/>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 	<title>BuyItemConfirm画面</title>
 
 	<style type="text/css">
@@ -102,7 +103,7 @@
 
 				<tr>
 					<td><input type="button" value="戻る" onclick="submitAction('HomeAction')"/></td>
-					<td><input type="button" value="完了" onclick="submitAction('BuyItemComfirmAction')"/></td>
+					<td><input type="button" value="完了" onclick="submitAction('BuyItemConfirmAction')"/></td>
 				</tr>
 			</table>
 			</s:form>

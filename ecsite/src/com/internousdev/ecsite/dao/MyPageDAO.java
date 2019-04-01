@@ -18,11 +18,11 @@ public class MyPageDAO {
 		ArrayList<MyPageDTO> myPageDTO = new ArrayList<MyPageDTO>();
 
 		String sql =
-				"SELECT ubit.id, iit.item_name, ubit.total_price, ubit.total_count, ubit.pay, ubit.insert_date"
-				+ "FROM user_buy_item_transaction ubit"
-				+ "LEFT JOIN item_info_transaction iit"
-				+ "ON ubit.item_transaction_id = iit.id"
-				+ "WHERE ubit.item_transaction_id =? AND ubit.user_master_id =?"
+				"SELECT ubit.id, iit.item_name, ubit.total_price, ubit.total_count, ubit.pay, ubit.insert_date "
+				+ "FROM user_buy_item_transaction ubit "
+				+ "LEFT JOIN item_info_transaction iit "
+				+ "ON ubit.item_transaction_id = iit.id "
+				+ "WHERE ubit.item_transaction_id =? AND ubit.user_master_id =? "
 				+ "ORDER BY insert_date DESC";
 
 		try{
