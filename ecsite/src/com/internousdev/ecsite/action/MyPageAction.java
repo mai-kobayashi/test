@@ -60,7 +60,7 @@ public class MyPageAction extends ActionSupport implements SessionAware{
 	}
 
 	public ArrayList<MyPageDTO> getMyPageList(){
-		return this.MyPageList;
+		return this.myPageList;
 	}
 
 	public String getMessage(){
