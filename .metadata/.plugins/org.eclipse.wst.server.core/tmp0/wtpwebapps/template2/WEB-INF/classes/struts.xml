@@ -17,7 +17,7 @@
 		<result name="error">home.jsp</result>
 	</action>
 
-	<!-- <action name="UserCreateAction" class="com.internousdev.template2.action.UserCreateAction" method="execute">
+	<action name="UserCreateAction" class="com.internousdev.template2.action.UserCreateAction" method="execute">
 		<result name="success">userCreate.jsp</result>
 	</action>
 
@@ -26,7 +26,7 @@
 		<result name="error">userCreate.jsp</result>
 	</action>
 
-	<action name="UserCreateCompleteAction" class="com.internousdev.template2.action.UserCreateCompleteAction" method="execute">
+	<!-- <action name="UserCreateCompleteAction" class="com.internousdev.template2.action.UserCreateCompleteAction" method="execute">
 		<result name="success">userCreateComplete.jsp</result>
 	</action>
 
@@ -40,8 +40,8 @@
 
 	<action name="MyPageAction" class="com.internousdev.template2.action.MyPageAction" method="execute">
 		<result name="success">myPage.jsp</result>
-	</action>
- -->
+	</action> -->
+
 
 	</package>
 </struts>
