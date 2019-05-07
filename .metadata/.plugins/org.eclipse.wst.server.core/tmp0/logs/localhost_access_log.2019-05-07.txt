@@ -1,0 +1,7 @@
+127.0.0.1 - - [07/May/2019:15:51:48 +0900] "GET / HTTP/1.1" 404 1019
+0:0:0:0:0:0:0:1 - - [07/May/2019:15:51:49 +0900] "GET /template2/ HTTP/1.1" 200 1616
+0:0:0:0:0:0:0:1 - - [07/May/2019:15:51:53 +0900] "POST /template2/HomeAction.action HTTP/1.1" 200 2137
+0:0:0:0:0:0:0:1 - - [07/May/2019:15:51:59 +0900] "POST /template2/LoginAction.action HTTP/1.1" 200 2712
+0:0:0:0:0:0:0:1 - - [07/May/2019:15:52:03 +0900] "POST /template2/BuyItemAction.action HTTP/1.1" 200 2079
+0:0:0:0:0:0:0:1 - - [07/May/2019:15:52:05 +0900] "POST /template2/BuyItemConfirmAction.action HTTP/1.1" 200 1554
+0:0:0:0:0:0:0:1 - - [07/May/2019:15:53:06 +0900] "POST /template2/BuyItemConfirmAction.action HTTP/1.1" 200 1554
