@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="コンパイル単位名 &apos;com.internousdev.template.action.UserCreateComplete.java&apos; を &apos;UserCreateCompleteAction.java&apos; に変更&#x0D;&#x0A;- 元のプロジェクト: &apos;template&apos;&#x0D;&#x0A;- オリジナル要素: &apos;com.internousdev.template.action.UserCreateComplete.java&apos;&#x0D;&#x0A;- 名前変更済み要素: &apos;com.internousdev.template.action.UserCreateCompleteAction.java&apos;" description="コンパイル単位名 &apos;UserCreateComplete.java&apos; を変更します" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;com.internousdev.template.action{UserCreateComplete.java" name="UserCreateCompleteAction.java" references="false" stamp="1553248703969" version="1.0"/>
-</session>

@@ -38,9 +38,9 @@
 		<result name="success">buyItemComplete.jsp</result>
 	</action>
 
-	<!-- <action name="MyPageAction" class="com.internousdev.template2.action.MyPageAction" method="execute">
+	<action name="MyPageAction" class="com.internousdev.template2.action.MyPageAction" method="execute">
 		<result name="success">myPage.jsp</result>
-	</action> -->
+	</action>
 
 
 	</package>
