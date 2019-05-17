@@ -1,0 +1,23 @@
+INDEX VERSION 1.127+C:\Users\testuser\Desktop\workspace\workspace-kobayashi\test\.metadata\.plugins\org.eclipse.jdt.core
+4225656540.index
+260929061.index
+688507729.index
+2280345933.index
+3082098993.index
+2673864413.index
+1977659428.index
+956331489.index
+958004294.index
+3790627639.index
+1210219766.index
+3427878858.index
+2152256130.index
+4078889185.index
+3017074890.index
+1739362863.index
+2510779206.index
+1270614830.index
+3544611733.index
+2898515093.index
+435021107.index
+3985494409.index
