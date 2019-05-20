@@ -7,7 +7,7 @@
 	<constant name="struts.devMode" value="true"/>
 	<package name="com.internousdev.ecsite2.action" extends="struts-default">
 
-	<!-- <action name="GoHomeAction" class="com.internousdev.ecsite2.action.GoHomeAction" method="execute">
+	<action name="GoHomeAction" class="com.internousdev.ecsite2.action.GoHomeAction" method="execute">
 		<result name="success">home.jsp</result>
 	</action>
 
@@ -35,7 +35,7 @@
 		<result name="success">userCreateComplete.jsp</result>
 	</action>
 
-	<action name="BuyItemAction" class="com.internousdev.ecsite2.action.BuyItemAction" method="execute">
+	<!-- <action name="BuyItemAction" class="com.internousdev.ecsite2.action.BuyItemAction" method="execute">
 		<result name="success">buyItemConfirm.jsp</result>
 		<result name="error">buyItem.jsp</result>
 	</action>
