@@ -1,7 +1,9 @@
 package com.internousdev.ecsite2.action;
 
 import java.util.Map;
+
 import org.apache.struts2.interceptor.SessionAware;
+
 import com.internousdev.ecsite2.dao.BuyItemDAO;
 import com.internousdev.ecsite2.dao.LoginDAO;
 import com.internousdev.ecsite2.dto.BuyItemDTO;
@@ -19,13 +21,13 @@ public class LoginAction extends ActionSupport implements SessionAware{
 	public String execute(){
 		String result = ERROR;
 		loginDTO = loginDAO.getLoginUserInfo(loginUserId, loginPassword);
-		session.put("loginUser", loginDTO)
+		session.put("loginUser", loginDTO);
 
 		if(((LoginDTO) session.get("loginUser")).getLoginFlg()){
 			result = SUCCESS;
-			BuyItemDTO buyItemDTO = buyItemDDAO.getBuyItemInfo();
+			BuyItemDTO buyItemDTO = buyItemDAO.getBuyItemInfo();
 
-			session.put("login_user_id", loginDTO.getLoginUserId());
+			session.put("login_user_id", loginDTO.getLoginId());
 			session.put("id", buyItemDTO.getId());
 			session.put("buyItem_name", buyItemDTO.getItemName());
 			session.put("buyItem_price", buyItemDTO.getItemPrice());
@@ -47,7 +49,7 @@ public class LoginAction extends ActionSupport implements SessionAware{
 		return loginPassword;
 	}
 
-	public void setLoginPassword(){
+	public void setLoginPassword(String loginPassword){
 		this.loginPassword = loginPassword;
 	}
 
